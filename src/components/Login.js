@@ -40,8 +40,8 @@ function Login(props) {
                         </p>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-4 col-sm-12 ">
-                    <h4 className="mt-3 text-primary text-center">Login</h4>
+                <div className="col-lg-4 col-md-4 col-sm-12">
+                    <h2 className="mt-3 text-primary text-center"> <i className="fas fa-search-dollar"></i> Expense Tracker App </h2>
                     <form onSubmit={handleSubmit} >
                         <div className="form-group">
                             <input autoFocus placeholder="Type 'admin' as username" value={username} onChange={e => setUsername(e.target.value)} type="text" className={`form-control  ${errors.length ? "is-invalid" : ""}`} />

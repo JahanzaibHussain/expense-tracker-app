@@ -93,7 +93,7 @@ function AddExpense() {
 
     return (
         <div className="col-lg-4 col-md-4 col-sm-12">
-            <h4 className="mt-3">Add Expense</h4>
+            <h4 className="mt-3">Add Income/Expense</h4>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <input autoFocus placeholder="Enter expense reason here..." value={text} onChange={ (e) => setText(e.target.value) } type="text" className="form-control" />
